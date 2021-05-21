@@ -1,0 +1,70 @@
+.footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    .container-footer {
+        padding-bottom: 20px;
+        border-top: 5px solid $azul-claro;
+        background-color: $azul;
+        display: flex;
+        flex-wrap: wrap;
+        a {
+            color: $blanco;
+            text-decoration: none;
+        }
+        .footer-about {
+            width: 35%;
+            margin-left: 50px;
+            p {
+                width: 90%;
+                font-size: 1rem;
+                color: $blanco;
+            }
+            @include telefono {
+                width: 100%;
+                margin-left: 20px;
+                margin-right: 20px;
+                p {
+                    width: 100%;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+        .footer-contacto {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            i {
+                margin-right: 5px;
+                margin-bottom: 10px;
+            }
+            @include telefono {
+                margin-left: 20px;
+                font-size: 0.8rem;
+                width: 50%;
+            }
+        }
+        .footer-menu {
+            margin-right: 20px;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            a {
+                display: inline-block;
+                border-bottom: 1px solid $blanco;
+            }
+            @include telefono {
+                width: 35%;
+                margin-left: 20px;
+            }
+        }
+    }
+    .copy {
+        color: $blanco;
+        text-align: center;
+        height: 5px;
+        display: inline-block;
+    }
+}

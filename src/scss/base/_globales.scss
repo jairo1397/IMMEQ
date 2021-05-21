@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $negro;
+    font-family: $fuente_principal;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: $blanco;
+}
+
+h3 {
+    text-align: center;
+    color: $blanco;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: $blanco;
+}
