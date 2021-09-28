@@ -1,13 +1,3 @@
-@import "base/normalize";
-@import "base/variables";
-@import "base/mixins";
-@import "base/globales";
-@import "base/animaciones";
-@import "layout/header";
-@import "layout/inicio";
-@import "layout/productos";
-@import "layout/contacto";
-@import "layout/footer";
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
