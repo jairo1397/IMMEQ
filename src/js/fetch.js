@@ -63,7 +63,6 @@ function mostrarProducto(id) {
                                 <thead>    
                                     <tr>
                                         <th><span>Modelo</span></th>
-
                                     </tr>
                                 </thead>
                             <tbody>`;
