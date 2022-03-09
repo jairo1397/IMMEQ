@@ -1,114 +1,137 @@
+[
+  {
+    "id": 1,
+    "nombre": "Modelo Liso de 3/8",
+    "modelos": [
+      "XL1-10.5cm",
+      "XI2-13.5cm",
+      "X13-16.5cm",
+      "X14-20cm",
+      "X15-25cm",
+      "X16-30cm",
+      "X17-35cm",
+      "X18-40cm",
+      "X19-45cm",
+      "XI10-50cm",
+      "XI11-55cm",
+      "XI12-60cm"
+    ],
 
-[{
-            "id": 1,
-            "nombre": "Modelo Liso de 3/8",
-            "modelos": ["XL1-10.5cm", "XI2-13.5cm", "X13-16.5cm", "X14-20cm","X15-25cm","X16-30cm","X17-35cm","X18-40cm","X19-45cm","XI10-50cm","XI11-55cm","XI12-60cm"],
-            "precios": ["1.50", "2.00", "2.30", "3.00","3.30","4.00","4.80","5.80","6.80","7.80","8.80","9.80","11.50"],
-            "imagen": "./build/img/3.webp"
-        },
-        {
-            "id": 2,
-            "nombre": "Modelo Arco de 5/16",
-            "modelos": ["A1-64mm", "A2-96mm", "A3-128mm","A4-160mm","A5-200mm"],
-            "precios": ["1.80", "2.20", "2.80","3.30","3.80"],
-            "imagen": "./build/img/1.webp"
-        },
-        {
-            "id": 3,
-            "nombre": "Dedo",
-            "modelos": ["1/2", "5/8", "3/4", "7/8", "1'"],
-            "precios": ["2.00", "2.50", "3.00", "3.50", "4.00"],
-            "imagen": "./build/img/9.webp"
-        },
-        {
-            "id": 4,
-            "nombre": "Torre Ranurada",
-            "modelos": ["1/2", "5/8", "3/4", "7/8", "1'"],
-            "precios": ["2.20", "2.70", "3.20", "3.70", "4.20"],
-            "imagen": "./build/img/18.webp"
-        },
-        {
-            "id": 5,
-            "nombre": "Torre Liso",
-            "modelos": ["1/2", "5/8", "3/4", "7/8", "1'"],
-            "precios": ["2.00", "2.70", "3.20", "3.70","4.20"],
-            "imagen": "./build/img/10.webp"
-        },
-        {
-            "id": 6,
-            "nombre": "Topes de Vidrio",
-            "modelos": ["Topes de vidrio"],
-            "precios": ["2.00"],
-            "imagen": "./build/img/11.webp"
-        },
-        {
-            "id": 7,
-            "nombre": "Coperos de Acero",
-            "modelos": ["25cm", "28cm", "30cm", "35cm", "40cm"],
-            "precios": ["7.00", "7.50", "8.00", "8.50","9.00"],
-            "imagen": "./build/img/5.webp"
-        },
-        {
-            "id": 8,
-            "nombre": "Botellero de Acero",
-            "modelos": ["Botellero doble de 2 filas", "Botellero triple de 2 filas","Botellero doble de 3 filas","Botellero triple de 3 filas"],
-            "precios": ["17.00", "19.00","22.00","24.00"],
-            "imagen": "./build/img/6.webp"
-        },
-        {
-            "id": 9,
-            "nombre": "Toalleros",
-            "modelos": ["Toallero Simple 45cm", "Toallero doble 45cm","Toallero Simple 60cm","Toallero doble 60cm"],
-            "precios": ["18.00", "24.00","22.00","27.00"],
-            "imagen": "./build/img/17.webp"
-        },
-        {
-            "id": 10,
-            "nombre": "Toallero de mano",
-            "modelos": ["Toallero de mano"],
-            "precios": ["19.00"],
-            "imagen": "./build/img/19.PNG"
-        },
-        {
-            "id": 11,
-            "nombre": "Papelera normal",
-            "modelos": ["Papelera normal"],
-            "precios": ["15.00"],
-            "imagen": "./build/img/20.PNG"
-        },
-        {
-            "id": 12,
-            "nombre": "Papelera con cachito",
-            "modelos": ["Papelera con cachito"],
-            "precios": ["15.00"],
-            "imagen": "./build/img/21.PNG"
-        },
-        {
-            "id": 13,
-            "nombre": "Papelera para cocina",
-            "modelos": ["Papelera para cocina"],
-            "precios": ["19.00"],
-            "imagen": "./build/img/22.PNG"
-        },
-        {
-            "id": 14,
-            "nombre": "Percheros de 1",
-            "modelos": ["Perchero de 1"],
-            "precios": ["8.00"],
-            "imagen": "./build/img/15.webp"
-        },
-        {
-            "id": 15,
-            "nombre": "Perchero en V",
-            "modelos": ["Perchero en V"],
-            "precios": ["9.00"],
-            "imagen": "./build/img/13.webp"
-        },
-        {
-            "id": 16,
-            "nombre": "Perchero Doble",
-            "modelos": ["Perchero Doble"],
-            "precios": ["10.00"],
-            "imagen": "./build/img/16.webp"
-        }
+    "imagen": "./build/img/3.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Modelo Arco de 5/16",
+    "modelos": ["A1-64mm", "A2-96mm", "A3-128mm", "A4-160mm", "A5-200mm"],
+
+    "imagen": "./build/img/1.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Dedo",
+    "modelos": ["1/2", "5/8", "3/4", "7/8", "1'"],
+
+    "imagen": "./build/img/9.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Torre Ranurada",
+    "modelos": ["1/2", "5/8", "3/4", "7/8", "1'"],
+
+    "imagen": "./build/img/18.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Torre Liso",
+    "modelos": ["1/2", "5/8", "3/4", "7/8", "1'"],
+
+    "imagen": "./build/img/10.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Topes de Vidrio",
+    "modelos": ["Topes de vidrio"],
+
+    "imagen": "./build/img/11.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Coperos de Acero",
+    "modelos": ["25cm", "28cm", "30cm", "35cm", "40cm"],
+
+    "imagen": "./build/img/5.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Botellero de Acero",
+    "modelos": [
+      "Botellero doble de 2 filas",
+      "Botellero triple de 2 filas",
+      "Botellero doble de 3 filas",
+      "Botellero triple de 3 filas"
+    ],
+
+    "imagen": "./build/img/6.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Toalleros",
+    "modelos": [
+      "Toallero Simple 45cm",
+      "Toallero doble 45cm",
+      "Toallero Simple 60cm",
+      "Toallero doble 60cm"
+    ],
+
+    "imagen": "./build/img/17.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Toallero de mano",
+    "modelos": ["Toallero de mano"],
+
+    "imagen": "./build/img/19.PNG"
+  },
+  {
+    "id": 11,
+    "nombre": "Papelera normal",
+    "modelos": ["Papelera normal"],
+
+    "imagen": "./build/img/20.PNG"
+  },
+  {
+    "id": 12,
+    "nombre": "Papelera con cachito",
+    "modelos": ["Papelera con cachito"],
+
+    "imagen": "./build/img/21.PNG"
+  },
+  {
+    "id": 13,
+    "nombre": "Papelera para cocina",
+    "modelos": ["Papelera para cocina"],
+
+    "imagen": "./build/img/22.PNG"
+  },
+  {
+    "id": 14,
+    "nombre": "Percheros de 1",
+    "modelos": ["Perchero de 1"],
+
+    "imagen": "./build/img/15.webp"
+  },
+  {
+    "id": 15,
+    "nombre": "Perchero en V",
+    "modelos": ["Perchero en V"],
+
+    "imagen": "./build/img/13.webp"
+  },
+  {
+    "id": 16,
+    "nombre": "Perchero Doble",
+    "modelos": ["Perchero Doble"],
+
+    "imagen": "./build/img/16.webp"
+  }
 ]

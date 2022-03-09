@@ -21,16 +21,13 @@ fetch('productos.json')
                                 <thead>    
                                 <tr>
                                     <th><span>Modelo</span></th>
-                                    <th><span>Precio</span></th>
                                 </tr>
                             </thead>
                         <tbody>`;
             for(let i=0;i<producto.modelos.length;i++){
                 modelo=producto.modelos[i];
-                precio=producto.precios[i];
                 html+= `<tr>
                             <td class="lalign">${modelo}</td>
-                            <td>S/. ${precio}</td>
                         </tr>`                   
             }
             html+=  `</tbody>
@@ -66,16 +63,16 @@ function mostrarProducto(id) {
                                 <thead>    
                                     <tr>
                                         <th><span>Modelo</span></th>
-                                        <th><span>Precio</span></th>
+
                                     </tr>
                                 </thead>
                             <tbody>`;
             for(let i=0;i<producto.modelos.length;i++){
                 modelo=producto.modelos[i];
-                precio=producto.precios[i];
+
                 html+= `<tr>
                             <td class="lalign">${modelo}</td>
-                            <td>S/. ${precio}</td>
+                     
                         </tr>`                   
             }
             html+=  `</tbody>
